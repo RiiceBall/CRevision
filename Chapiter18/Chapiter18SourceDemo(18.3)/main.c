@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
-#include "game_lib.h"
 #include "game.h"
+#include "game_lib.h"
 
 int main(void)
 {
