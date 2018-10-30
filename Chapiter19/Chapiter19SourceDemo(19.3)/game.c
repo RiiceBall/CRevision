@@ -346,7 +346,7 @@ void show_player_info(void)
 
 	// 打印个人信息
 	set_cursor_position(MARGIN_X + 10, INFO_START_Y + 1);
-	printf("等级：%d\t血量：%d内力：%d\t经验值：%d", curr_player->level, curr_player->hp, curr_player->mp, curr_player->exp);
+	printf("等级：%d\t血量：%d\t内力：%d\t经验值：%d", curr_player->level, curr_player->hp, curr_player->mp, curr_player->exp);
 
 	// 打印武器信息
 	set_cursor_position(MARGIN_X + 10, INFO_START_Y + 2);
