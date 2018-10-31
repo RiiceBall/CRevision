@@ -29,7 +29,7 @@ typedef struct _pub_time
 typedef struct _hero
 {
 	int id;             // 英雄编号
-	char * name;        // 英雄名称
+	char *name;         // 英雄名称
 	char sex;           // 英雄性别
 	Job job;            // 英雄的职业
 	double hp;          // 英雄的生命值
