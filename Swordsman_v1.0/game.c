@@ -492,10 +492,10 @@ void fight(int monster_id)
 
 	// 怪物总数
 	int monster_count = sizeof(monster_array) / sizeof(Monster);
-    int i;
+	int i;
 
-    // 查找要pk的怪物id
-    for (i = 0; i < monster_count; i++)
+	// 查找要pk的怪物id
+	for (i = 0; i < monster_count; i++)
 	{
 		// 如果找到，则保存怪物下标并退出
 		if (monster_id == monster_array[i].id)
